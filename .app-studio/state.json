@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "savedAt": "2026-01-28T23:12:34.107Z",
+  "savedAt": "2026-01-28T23:23:59.948Z",
   "appMeta": {
     "appTitle": "나이트 서바이버 (Night Survivor)",
     "chatPrompt": "뱀파이어 서바이버 게임 만들어",
-    "createdAt": "2026-01-28T23:12:34.107Z",
-    "lastModifiedAt": "2026-01-28T23:12:34.107Z"
+    "createdAt": "2026-01-28T23:23:59.948Z",
+    "lastModifiedAt": "2026-01-28T23:23:59.948Z"
   },
   "chatHistory": [
     {
@@ -81,6 +81,30 @@
       "role": "assistant",
       "content": "App is ready! Check the Preview tab. You can apply changes by typing modifications.",
       "timestamp": "2026-01-28T23:12:33.460Z"
+    },
+    {
+      "id": "msg_1769641954108_cl7y30b",
+      "role": "system",
+      "content": "앱이 갤러리에 저장되었습니다: \"뱀파이어 서바이버 게임 만들어\"",
+      "timestamp": "2026-01-28T23:12:34.108Z"
+    },
+    {
+      "id": "msg_1769641965987_97jp2sd",
+      "role": "system",
+      "content": "GitHub에 자동 저장되었습니다: [AndrewaiDavinci/app-night-survivor-mkyn4n1z-r2nema23-04ca](https://github.com/AndrewaiDavinci/app-night-survivor-mkyn4n1z-r2nema23-04ca)",
+      "timestamp": "2026-01-28T23:12:45.987Z"
+    },
+    {
+      "id": "msg_1769641966063_l244kbo",
+      "role": "system",
+      "content": "앱 썸네일을 생성하고 있습니다...",
+      "timestamp": "2026-01-28T23:12:46.063Z"
+    },
+    {
+      "id": "msg_1769641976768_senktvv",
+      "role": "system",
+      "content": "앱 썸네일이 생성되었습니다.",
+      "timestamp": "2026-01-28T23:12:56.768Z"
     }
   ],
   "planning": {
@@ -130,19 +154,6 @@
     ]
   },
   "terminalLogs": [
-    "[Fix] ✅ AI 수정 완료: src/components/GameCanvas.jsx",
-    "[Fix] AI 분석 중: src/components/UpgradeModal.jsx (1개 에러)",
-    "[Fix] AI 분석 중: src/components/SurvivorGame.jsx (9개 에러)",
-    "[Fix] ✅ AI 수정 완료: src/components/SurvivorGame.jsx",
-    "[Fix] AI로 총 2개 파일 수정 완료",
-    "[Fix] 수정 완료, 재검증을 시작합니다...",
-    "\n🔍 Validating 16 files...",
-    "⚠️ Found 19 errors, attempting to fix...",
-    "[Fix] ⚠️ 무한 루프 감지: fix_loop (4회)",
-    "[Fix] 동일 에러가 4회 반복되고 있습니다 (src/App.jsx).\n에러: Hook이 조건문 안에서 호출되었습니다. Hook은 컴포넌트 최상위에서만 호출해야 합니다....\n\n권장 조치:\n1. 다른 구현 방식 시도\n2. 관련 컴포넌트 구조 재검토\n3. 의존성 패키지 버전 확인",
-    "[Fix] 다른 방식으로 컴포넌트를 재작성합니다.",
-    "[Fix] 오류 수정 시도 2/5 - 19개 오류 발견",
-    "[Fix] 오류 분류: Runtime: 19",
     "[Fix] 휴리스틱 패턴 매칭으로 빠른 수정 시도 중...",
     "[Fix] 런타임 에러 19개 분석 중...",
     "[Fix] AI 기반 심층 디버깅 시작...",
@@ -179,7 +190,20 @@
     "Waiting for server ready...",
     "✅ Server ready at: https://ockiu31nlxm2s74r6m3c7ye9q7aqzn-kkxp--5173--31fc58ec.local-corp.webcontainer-api.io",
     "[success] Server ready: https://ockiu31nlxm2s74r6m3c7ye9q7aqzn-kkxp--5173--31fc58ec.local-corp.webcontainer-api.io",
-    "[state] REVIEWING: 앱 실행 중"
+    "[state] REVIEWING: 앱 실행 중",
+    "[success] 갤러리에 저장 완료: 87890191-4dcb-4cc5-9606-092f3060f53b",
+    "[GitHub] 자동 저장 시작...",
+    "[state] 앱 상태 직렬화 완료 (채팅: 7개, Blueprint: O, Planning: O)",
+    "[GitHub] 새 레포지토리 생성 중...",
+    "✅ 앱 빌드 및 검증 완료",
+    "[state] IDLE: 대기 중",
+    "[GitHub] ✅ 커밋 완료: 73dd81e",
+    "[GitHub] 저장 완료: https://github.com/AndrewaiDavinci/app-night-survivor-mkyn4n1z-r2nema23-04ca",
+    "[Thumbnail] 앱 썸네일 생성 중...",
+    "[Thumbnail] 생성 완료: https://eaqupiggz41cadht.public.blob.vercel-storag...",
+    "[Project] 기존 프로젝트 확인 중...",
+    "[Project] 프로젝트 생성 중...",
+    "[Project] 프로젝트 생성 완료: a65b6312-1615-4897-b1e3-7698b5f3677c"
   ],
   "phaseProgress": {
     "currentPhaseIndex": 1,
